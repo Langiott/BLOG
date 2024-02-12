@@ -17,12 +17,19 @@ Node.js è un framework JavaScript open-source che consente di eseguire codice J
 
 ## Rotte disponibili
 OSS:Utilizza Postman per gestire le Richieste e le Risposte
-/ : Rout della HOme page
-/database : Visualizza database
-/login : Ti rindirizza alla creazione dell'utente
-/crea : Area 
-/utente : Area utente
-/amministartore : Area Amministratore
+# Percorsi disponibili nell'applicazione
+
+- `/`: Route della home page. Questo percorso visualizza la home page del blog.
+
+- `/database`: Route per visualizzare il database. Questo percorso consente di accedere all'area per visualizzare i dati nel database.
+
+- `/login`: Route per l'autenticazione. Questo percorso reindirizza gli utenti alla pagina di login o registrazione.
+
+- `/crea`: Route per l'area di creazione. Questo percorso consente di accedere all'area per creare nuovi contenuti.
+
+- `/utente`: Route per l'area utente. Questo percorso reindirizza gli utenti all'area riservata agli utenti registrati.
+
+- `/amministratore`: Route per l'area amministratore. Questo percorso reindirizza gli utenti all'area riservata agli amministratori del blog.
 
 ## 1. Configurazione Iniziale
 
