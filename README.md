@@ -15,8 +15,6 @@ Node.js è un framework JavaScript open-source che consente di eseguire codice J
 ## TypeScript
 è un linguaggio di programmazione open-source sviluppato da Microsoft, che estende JavaScript aggiungendo tipizzazione statica opzionale. Con TypeScript, gli sviluppatori possono dichiarare i tipi di dati per variabili, parametri di funzioni, ritorni di funzioni e altro ancora. Questo aiuta a individuare errori durante il processo di sviluppo, migliorando la manutenibilità, la leggibilità e la scalabilità del codice. TypeScript è compatibile con JavaScript esistente e può essere utilizzato per lo sviluppo di applicazioni front-end e back-end, inclusi i progetti Node.js.
 
-## Rotte disponibili
-OSS:Utilizza Postman per gestire le Richieste e le Risposte
 
 ##  Middleware per l'autenticazione dell'utente
 ```bash
@@ -47,7 +45,7 @@ app.get('/area-riservata', authenticateUser, (req, res) => {
 });
 ```
 
-# Percorsi disponibili nell'applicazione
+# Rotte disponibili nell'applicazione
 
 - `/`: Route della home page. Questo percorso visualizza la home page del blog.
 
