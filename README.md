@@ -68,7 +68,7 @@ app.get('/area-riservata', authenticateUser, (req, res) => {
 
 ## 1. Configurazione Iniziale
 
-Per iniziare il progetto, eseguire il seguente comando per generare un file `package.json` predefinito:
+Per iniziare il progetto, eseguire il seguente comando per generare un file `package.json` predefinito. Dopo aver mandato in esecuzione il comando verrà creato un file chimato 'node.module.ts' che non p stato caricato nel repository perche era troppo grande in termini di spazio di archiviazione :
 
 ```bash
 npm init -y
