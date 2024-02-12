@@ -11,6 +11,7 @@
 Node.js è un framework JavaScript open-source che consente di eseguire codice JavaScript lato server. È basato sul motore JavaScript V8 di Google Chrome e consente agli sviluppatori di utilizzare JavaScript per sviluppare applicazioni back-end, non solo per il front-end.
 
 ## Sequelize 
+![](sequelize.png)
 è un ORM (Object-Relational Mapping) per Node.js che semplifica l'interazione con i database relazionali come PostgreSQL, MySQL e SQLite. Con Sequelize, gli sviluppatori possono utilizzare oggetti JavaScript per eseguire query e manipolare dati, eliminando la necessità di scrivere query SQL manualmente. Offre funzionalità avanzate come migrazioni del database, gestione delle transazioni e definizione delle relazioni tra tabelle.
 
  ## dotenv 
