@@ -1,11 +1,11 @@
 # Blog con Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04 (SOLO LATO BACKEND)
 
 ## Express 
-![]={Express.png}
+![]=(Express.png)
 è un framework web per Node.js che semplifica lo sviluppo di applicazioni web e API. È noto per la sua flessibilità e velocità, permettendo agli sviluppatori di gestire facilmente le richieste HTTP, il routing, i middleware e altro ancora. Express è estremamente modulare e offre una vasta gamma di moduli aggiuntivi per estendere le sue funzionalità di base.
 
 ## Node.js
-![]={node.png}
+![]=(node.png)
 Node.js è un framework JavaScript open-source che consente di eseguire codice JavaScript lato server. È basato sul motore JavaScript V8 di Google Chrome e consente agli sviluppatori di utilizzare JavaScript per sviluppare applicazioni back-end, non solo per il front-end.
 
 ## Sequelize 
