@@ -1,2 +1,2 @@
-# BLOG
-Blog with express framework , sequelize in typescript languages
+# Blog_esercizio
+Esercizio di un blog con express.ts 
