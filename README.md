@@ -1,5 +1,4 @@
-# Blog_esercizio
-# Guida per l'inizializzazione e la configurazione di un progetto Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04
+# Blog con Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04
 
 ## Express 
 è un framework web per Node.js che semplifica lo sviluppo di applicazioni web e API. È noto per la sua flessibilità e velocità, permettendo agli sviluppatori di gestire facilmente le richieste HTTP, il routing, i middleware e altro ancora. Express è estremamente modulare e offre una vasta gamma di moduli aggiuntivi per estendere le sue funzionalità di base.
