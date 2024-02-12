@@ -23,6 +23,7 @@ Node.js è un framework JavaScript open-source che consente di eseguire codice J
 
 
 ##  Middleware per l'autenticazione dell'utente
+I middleware in Express sono funzioni che hanno accesso all'oggetto di richiesta (request), all'oggetto di risposta (response) e alla funzione di callback next(). Sono fondamentali per l'elaborazione delle richieste HTTP in Express. I middleware possono eseguire diverse azioni durante il ciclo di vita di una richiesta, come l'autenticazione, la gestione degli errori, la registrazione delle richieste, la gestione delle sessioni e molto altro ancora.
 ```bash
 const authenticateUser = (req, res, next) => {
   // Simuliamo un controllo di autenticazione dell'utente
