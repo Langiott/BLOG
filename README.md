@@ -1,4 +1,4 @@
-# Blog con Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04
+# Blog con Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04 (SOLO LATO BACKEND)
 
 ## Express 
 è un framework web per Node.js che semplifica lo sviluppo di applicazioni web e API. È noto per la sua flessibilità e velocità, permettendo agli sviluppatori di gestire facilmente le richieste HTTP, il routing, i middleware e altro ancora. Express è estremamente modulare e offre una vasta gamma di moduli aggiuntivi per estendere le sue funzionalità di base.
@@ -14,6 +14,15 @@ Node.js è un framework JavaScript open-source che consente di eseguire codice J
 
 ## TypeScript
 è un linguaggio di programmazione open-source sviluppato da Microsoft, che estende JavaScript aggiungendo tipizzazione statica opzionale. Con TypeScript, gli sviluppatori possono dichiarare i tipi di dati per variabili, parametri di funzioni, ritorni di funzioni e altro ancora. Questo aiuta a individuare errori durante il processo di sviluppo, migliorando la manutenibilità, la leggibilità e la scalabilità del codice. TypeScript è compatibile con JavaScript esistente e può essere utilizzato per lo sviluppo di applicazioni front-end e back-end, inclusi i progetti Node.js.
+
+## Rotte disponibili
+OSS:Utilizza Postman per gestire le Richieste e le Risposte
+/ : Rout della HOme page
+/database : Visualizza database
+/login : Ti rindirizza alla creazione dell'utente
+/crea : Area 
+/utente : Area utente
+/amministartore : Area Amministratore
 
 ## 1. Configurazione Iniziale
 
