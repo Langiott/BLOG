@@ -17,6 +17,36 @@ Node.js è un framework JavaScript open-source che consente di eseguire codice J
 
 ## Rotte disponibili
 OSS:Utilizza Postman per gestire le Richieste e le Risposte
+
+##  Middleware per l'autenticazione dell'utente
+```bash
+const authenticateUser = (req, res, next) => {
+  // Simuliamo un controllo di autenticazione dell'utente
+  const isLoggedIn = checkIfUserIsLoggedIn(req); // Funzione per verificare se l'utente è autenticato
+
+  if (isLoggedIn) {
+    // Se l'utente è autenticato, passa il controllo al middleware successivo
+    next();
+  } else {
+    // Se l'utente non è autenticato, reindirizzalo alla pagina di login
+    res.redirect('/login');
+  }
+};
+```
+Funzione di verifica se l'utente è autenticato (da sostituire con la tua logica di autenticazione effettiva)
+```bash
+const checkIfUserIsLoggedIn = (req) => {
+  // Esempio di logica di autenticazione: controlla se esiste un flag 'isLoggedIn' nell'oggetto della richiesta
+  return req.session.isLoggedIn; // Esempio di verifica tramite sessione (assumendo che tu utilizzi sessioni)
+};
+```
+Utilizzo del middleware per proteggere una route
+```
+app.get('/area-riservata', authenticateUser, (req, res) => {
+  res.send('Benvenuto nell\'area riservata!');
+});
+```
+
 # Percorsi disponibili nell'applicazione
 
 - `/`: Route della home page. Questo percorso visualizza la home page del blog.
