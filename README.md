@@ -51,6 +51,9 @@ app.get('/area-riservata', authenticateUser, (req, res) => {
   res.send('Benvenuto nell\'area riservata!');
 });
 ```
+# Use Case & UML
+![](use_case.png)
+![](uml.png)
 
 # Rotte disponibili nell'applicazione
 
@@ -65,6 +68,7 @@ app.get('/area-riservata', authenticateUser, (req, res) => {
 - `/utente`: Route per l'area utente. Questo percorso reindirizza gli utenti all'area riservata agli utenti registrati.
 
 - `/amministratore`: Route per l'area amministratore. Questo percorso reindirizza gli utenti all'area riservata agli amministratori del blog.
+
 
 ## 1. Configurazione Iniziale
 
