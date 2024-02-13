@@ -1,4 +1,4 @@
-# Blog con Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04 (SOLO LATO BACKEND)
+# Blog con Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04 (SOLO LATO BACKEND-PROGETTO INCOMPLETO)
 
 ## Express 
 ![](Express.png)
@@ -52,6 +52,8 @@ app.get('/area-riservata', authenticateUser, (req, res) => {
 });
 ```
 # Use Case & UML
+Lo use case e uml non corrispondono al progetto ma danno un idea degli sviluppi futuri da migliorare: 
+
 ![](use_case.png)
 ![](uml.png)
 
