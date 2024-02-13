@@ -1,4 +1,4 @@
-# Blog con Node.js con Express, TypeScript, MySQL e Docker su Ubuntu 20.04 (SOLO LATO BACKEND-PROGETTO INCOMPLETO)
+# Blog con Node.js, Express, TypeScript, MySQL e Docker su Ubuntu 20.04 (SOLO LATO BACKEND-PROGETTO INCOMPLETO)
 
 ## Express 
 ![](Express.png)
@@ -71,6 +71,15 @@ Lo use case e uml non corrispondono al progetto ma danno un idea degli sviluppi 
 
 - `/amministratore`: Route per l'area amministratore. Questo percorso reindirizza gli utenti all'area riservata agli amministratori del blog.
 
+# Patthern 
+Model-View-Controller (MVC) è un pattern utilizzato in programmazione per dividere il codice in blocchi dalle funzionalità ben distinte. Solitamente un applicazione lavora in questo modo :
+![](1.png)
+Quando si parla diell pattern MVC la nostra applicazione lavora in modo differente 
+  - Model: contiene i metodi di accesso ai dati.
+  - View: si occupa di visualizzare i dati all'utente e gestisce l'interazione fra quest'ultimo e l'infrastruttura sottostante.
+  - Controller: riceve i comandi dell'utente attraverso il View e reagisce eseguendo delle operazioni che possono interessare il Model e che portano generalmente ad un cambiamento di stato del View.
+
+![](2.png)
 
 ## 1. Configurazione Iniziale
 
