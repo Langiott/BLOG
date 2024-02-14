@@ -51,6 +51,29 @@ app.get('/area-riservata', authenticateUser, (req, res) => {
   res.send('Benvenuto nell\'area riservata!');
 });
 ```
+# Singlton
+Il singleton è un design pattern creazionale che ha lo scopo di garantire che di una determinata classe venga creata una e una sola istanza, e di fornire un punto di accesso globale a tale istanza.
+```
+class Singleton
+{
+    constructor() {
+         //...inizializzazione istanza...
+    }
+}
+
+const singletonInstance = null;
+
+module.exports = {
+  getInstance: () => {
+    if (!singletonInstance) {
+      singletonInstance = new Singleton();
+    }
+    
+    return singletonInstance;
+  },
+};
+```
+
 # Use Case & UML
 Lo use case e uml non corrispondono al progetto ma danno un idea degli sviluppi futuri da migliorare: 
 
